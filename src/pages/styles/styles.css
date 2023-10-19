@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .cv-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .cv-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cv-section {
+    margin-bottom: 20px;
+  }
+  
+  .cv-section h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  

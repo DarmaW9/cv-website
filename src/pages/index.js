@@ -1,13 +1,21 @@
-import React from "react"
+import React from 'react'
+import '../styles/styles.css'  // Asumsi Anda memiliki file styles.css di direktori src/styles
 
 const IndexPage = () => (
-  <div>
-    <h1>Curriculum Vitae</h1>
-    <h2>Your Name</h2>
-    <p>Contact: your-email@example.com</p>
-    <h3>Education</h3>
-    <p>Bachelor of Science in Computer Science, University XYZ, 2015-2019</p>
-    // ... add more sections like Experience, Skills, Projects, etc.
+  <div className="cv-container">
+    <header className="cv-header">
+      <h1>Widya Darma Wirawawan</h1>
+      <p>Email: widyawirawan16@gmail.com</p>
+      <p>Phone: 082165978014</p>
+    </header>
+    
+    <section className="cv-section">
+      <h2>Education</h2>
+      <p>Ilmu Komunikasi, Universitas Sebelas Maret</p>
+    </section>
+    
+    {/* Tambahkan lebih banyak bagian seperti Experience, Skills, dll. */}
+    
   </div>
 )
 
