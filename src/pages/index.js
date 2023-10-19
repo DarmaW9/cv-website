@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/styles.css'  // Asumsi Anda memiliki file styles.css di direktori src/styles
+import React from 'react';
+import '../pages/styles/styles.css';
 
 const IndexPage = () => (
   <div className="cv-container">
